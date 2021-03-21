@@ -44,10 +44,10 @@ class EnvironmentController extends Controller
      */
     public function environmentWizard()
     {
-        if (!file_exists('core/vendor/mockery/mockery/verified')) {
-            Session::flash('license_error', 'Please, verify your license first!');
-            return redirect()->route('LaravelInstaller::license');
-        }
+        // if (!file_exists('core/vendor/mockery/mockery/verified')) {
+        //     Session::flash('license_error', 'Please, verify your license first!');
+        //     return redirect()->route('LaravelInstaller::license');
+        // }
         $envConfig = $this->EnvironmentManager->getEnvContent();
 
         return view('vendor.installer.environment-wizard', compact('envConfig'));
@@ -91,10 +91,10 @@ class EnvironmentController extends Controller
      */
     public function saveWizard(Request $request, Redirector $redirect)
     {
-        if (!file_exists('core/vendor/mockery/mockery/verified')) {
-            Session::flash('license_error', 'Please, verify your license first!');
-            return redirect()->route('LaravelInstaller::license');
-        }
+        // if (!file_exists('core/vendor/mockery/mockery/verified')) {
+        //     Session::flash('license_error', 'Please, verify your license first!');
+        //     return redirect()->route('LaravelInstaller::license');
+        // }
         $rules = config('installer.environment.form.rules');
         $messages = [
             'environment_custom.required_if' => trans('installer_messages.environment.wizard.form.name_required'),
