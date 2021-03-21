@@ -1,0 +1,276 @@
+.header_v1 .top_header .top_left {
+    text-align: right;
+}
+.header_v1 .top_header .top_left span {
+    margin-right: 0px;
+    margin-left: 35px;
+}
+.header_v1 .top_header .top_left span i{
+	margin-right: 0;
+	margin-left: 10px;
+}
+.header_v1 .top_header .top_right {
+    float: left;
+}
+.header_v1 .top_header .top_right .dropdown .btn i {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.header_v1 .top_header .top_right .social {
+    margin-right: 0px;
+    margin-left: 40px;
+}
+.header_v1 .header_navigation .site_menu .button_box {
+    float: left;
+}
+.header_v1 .header_navigation .site_menu .button_box .finlance_btn{
+	margin-left: 0px;
+	margin-right: 50px;
+}
+.main-menu ul li > ul.sub-menu{
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+.main-menu ul li ul.mega-menu {
+    text-align: right;
+    left: auto;
+    right: 0;
+}
+.feature_v1 .grid_item .finlance_content {
+    margin-left: 0;
+    margin-right: 20px;
+    text-align: right;
+}
+.about_v1 .finlance_box_img .finlance_img{
+	text-align: right;
+}
+.about_v1 .finlance_box_img .finlance_img:after{
+	left: auto;
+	right: -70px;
+}
+.play_box{
+	right: auto;
+	left: 20px;
+}
+.about_v1 .finlance_content_box {
+    text-align: right;
+}
+.service_v1 .section_title {
+    text-align: right;
+}
+.service_v1 .service_slide .grid_item{
+	text-align: right;
+}
+.btn_link:after{
+	padding-left: 0;
+	padding-right: 10px;
+}
+.we_do_v1 .finlance_content_box {
+    text-align: right;
+}
+.we_do_v1 .finlance_icon_box .icon_list .text {
+    margin-left: 0;
+    margin-right: 20px;
+    text-align: right;
+}
+.counter_box {
+    text-align: right;
+}
+.finlance_fun_v1 .counter_box .icon::after{
+	left: auto;
+	right: 0;
+}
+.finlance_fun_v1 .counter_box .icon i {
+    margin-left: 0;
+    margin-right: 35px;
+}
+.testimonial_v1 .testimonial_slide .testimonial_box .finlance_content {
+    margin-left: 0;
+    margin-right: 30px;
+    text-align: right;
+}
+.project_v1 .section_title {
+    text-align: right;
+}
+.team_v1 .section_title {
+    text-align: right;
+}
+.team_v1 .button_box {
+    float: left;
+}
+.blog_v1 .grid_item .grid_inner_item .finlance_content .post_meta span {
+    margin-right: 0;
+    display: inline-block;
+    margin-left: 25px;
+}
+.blog_v1 .grid_item .grid_inner_item .finlance_content .post_meta span i {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.blog_v1 .grid_item .grid_inner_item .finlance_content {
+    text-align: right;
+}
+.cta_v1 .section_title {
+    text-align: right;
+}
+.cta_v1 .button_box {
+    float: left;
+}
+.footer_v1 .widget_box {
+	text-align: right;
+}
+.footer_v1 .copyright_text {
+    text-align: right;
+}
+.footer_v1 .footer_bottom .social_box {
+    float: left;
+}
+
+
+.hero_slide_v1 .slick-prev{
+    left: auto;
+    right: -100%;
+}
+.hero_slide_v1 .slick-next{
+    right: auto;
+    left: -100%;
+}
+.hero_slide_v1:hover .slick-prev{
+    left: auto;
+    right: 60px;
+}
+.hero_slide_v1:hover .slick-next{
+    right: auto;
+    left: 60px;
+}
+.blog_slide .slick-prev:before,
+.team_slide .slick-prev:before,
+.project_slide .slick-prev:before,
+.pricing_slide .slick-prev:before,
+.hero_slide_v1 .slick-prev:before{
+    transform: rotate(180deg);
+}
+.blog_slide .slick-next:before,
+.team_slide .slick-next:before,
+.project_slide .slick-next:before,
+.pricing_slide .slick-next:before,
+.hero_slide_v1 .slick-next:before{
+    transform: rotate(180deg);
+}
+.blog_slide:hover .slick-prev,
+.team_slide:hover .slick-prev,
+.project_slide:hover .slick-prev,
+.pricing_slide:hover .slick-prev{
+    right: 60px;
+    left: auto;
+}
+.blog_slide:hover .slick-next,
+.team_slide:hover .slick-next,
+.project_slide:hover .slick-next,
+.pricing_slide:hover .slick-next{
+    right: auto;
+    left: 60px;
+}
+.blog_slide .slick-next,
+.team_slide .slick-next,
+.project_slide .slick-next,
+.pricing_slide .slick-next{
+    right: auto;
+    left: -60px;
+}
+.blog_slide  .slick-prev,
+.team_slide .slick-prev,
+.project_slide .slick-prev,
+.pricing_slide .slick-prev{
+    left: auto;
+    right: -60px;
+}
+li.submenus::after {
+    content: "\f100";
+    right: auto;
+    top: 50%;
+    left: 30px;
+}
+.brand {
+    text-align: right;
+}
+li.submenus ul {
+    left: auto;
+    right: 100%;
+}
+.main-menu ul li.menu-item-has-children > a:after {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/*xxLarge Device*/
+@media only screen and (min-width: 1401px) and (max-width: 1796px) {
+    
+}
+/*Extra Large Device*/
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .header_v1 .header_navigation .site_menu .button_box .finlance_btn {
+	    margin-left: 0px;
+	    margin-right: 20px;
+	}
+}
+/*Large Device*/
+@media only screen and (min-width: 992px) and (max-width : 1200px) {
+    
+}
+
+/*Medium Device*/
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 991px) {
+	.header_v1 .top_header .top_left {
+	    text-align: center;
+	}
+	.header_v1 .top_header .top_right {
+	    float: none;
+	}
+	.play_box {
+	    right: 50%;
+	    left: auto;
+	}
+	.team_v1 .button_box {
+	    float: none;
+	    text-align: right;
+	}
+	.cta_v1 .section_title {
+	    text-align: center;
+	}
+	.cta_v1 .button_box {
+	    float: none;
+	}
+    .footer_v1 .copyright_text {
+	    text-align: center;
+	}
+	.footer_v1 .footer_bottom .social_box {
+	    float: none;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .finlance_fun_v1 .counter_box .icon::after {
+	    left: 50%;
+	    right: auto;
+	}
+}
+/* Mobile Devices, Tablets */
+@media only screen and (max-width: 359px){
+    .header_v1 .top_header .top_right .social {
+	    margin-right: 0px;
+	    margin-left: 10px;
+	}
+}
+/* Mobile Devices, Tablets */
+@media only screen and (min-width: 450px) and (max-width : 767px) {
+    
+}

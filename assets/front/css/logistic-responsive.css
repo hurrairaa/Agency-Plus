@@ -1,0 +1,350 @@
+/*xxLarge Device*/
+@media only screen and (min-width: 1401px) and (max-width: 1796px) {
+    
+}
+/*Extra Large Device*/
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .header_v1 .hainer_main_content .logo{
+        max-width: 200px;
+        width: 100%;
+    }
+    .header_v1 .header_navigation {
+        width: calc(100% - 200px);
+    }
+    .header_v1 .header_navigation .site_menu .button_box .logistics_btn{
+        margin-left: 20px;
+    }
+    .feature_v1 .container-fluid{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .feature_v1 .grid_item .logistics_content h4{
+        font-size: 16px;
+    }
+    .project_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-menu ul > li > a {
+	    padding: 38px 10px;
+	    font-size: 14px;
+	}    
+}
+/*Large Device*/
+@media only screen and (min-width: 992px) and (max-width : 1200px) {
+    .header_v1 .top_header .top_right .social {
+        margin-right: 20px;
+    }
+    .header_v1 .top_header .top_right .social li {
+        margin-left: 12px;
+    }
+    .header_v1 .hainer_main_content .logo{
+        max-width: 150px;
+        padding: 20px;
+    }
+    .header_v1 .header_navigation{
+        width: calc(100% - 150px);
+    }
+    .header_v1 .top_header{
+        padding: 15px 30px 15px 30px;
+    }
+    .header_v1 .site_menu{
+        padding: 0px 30px 0 30px;
+    }
+    .header_v1 .header_navigation .site_menu .button_box .search_icon{
+        font-size: 12px;
+    }
+    .header_v1 .header_navigation .site_menu .button_box .logistics_btn {
+        min-width: 130px;
+        margin-left: 20px;
+    }
+    .header_v1 .top_header .top_left span {
+        margin-right: 25px;
+    }
+    .project_v1 .container-fluid,
+    .feature_v1 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+	.main-menu ul li {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	}
+	.main-menu ul > li > a {
+	    padding: 38px 8px;
+	    font-size: 14px;
+	}   
+}
+
+
+
+@media only screen and (max-width : 991px) {
+    li.submenus ul {
+        position: static;
+        background: transparent;
+    }
+    .breadcrumb-area .breadcrumb-txt {
+        padding: 91px 0px 91px 0px;
+    }
+}
+
+
+/*Medium Device*/
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+    .logistics_img img{
+        width: 100%;
+    }
+    .header_v1 .hainer_main_content {
+        display: block;
+        position: relative;
+    }
+    .header_v1 .hainer_main_content .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 200px;
+        height: 100%;
+    }
+    .header_v1 .header_navigation {
+        background: #121c45;
+        width: 100%;
+        padding: 35px 20px;
+    }
+    .header_v1 .site_menu{
+        padding: 0;
+    }
+    .section_title h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .header_v1 .top_header{
+        display: none;
+    }
+    .header_v1 .header_navigation .site_menu .button_box{
+        display: none;
+    }
+    .hero_slide_v1 .single_slider .banner_content h1 {
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+    .logistics_header.header_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .project_v1 .container-fluid,
+    .feature_v1 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feature_v1 .grid_item {
+        padding: 70px 25px;
+    }
+    .about_v1 .logistics_box_img{
+        margin-bottom: 60px;
+    }
+    .about_v1 .logistics_content_box .section_title{
+        margin-bottom: 0;
+    }
+    .we_do_v1 .logistics_content_box{
+        margin-bottom: 40px;
+    }
+    .logistics_fun_v1 .counter_box {
+        margin-bottom: 40px;
+    }
+    .team_v1 .button_box {
+        float: none;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .logistics_content {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .pricing_v1 .pricing_box,
+    .team_v1 .grid_item,
+    .blog_v1 .grid_item{
+        margin-bottom: 40px;
+    }
+    .blog_v1 .grid_item .grid_inner_item .logistics_content .post_meta span {
+        margin-right: 10px;
+    }
+    .cta_v1 .section_title{
+        text-align: center;
+    }
+    .cta_v1 .button_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer_v1 .contact_widget{
+        margin-left: 0;
+    }
+    .widget_box{
+        margin-bottom: 40px;
+    }
+    .footer_v1 .copyright_text {
+        text-align: center;
+    }
+    .footer_v1 .footer_bottom .social_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .logistics_img img{
+        width: 100%;
+    }
+    .breadcrumb-area .breadcrumb-txt {
+        padding: 80px 0px 80px 0px;
+    }    
+    .header_v1 .hainer_main_content {
+        display: block;
+        position: relative;
+    }
+    .header_v1 .hainer_main_content .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 150px;
+        height: 100%;
+    }
+    .header_v1 .header_navigation {
+        background: #121c45;
+        width: 100%;
+        padding: 35px 20px;
+    }
+    .header_v1 .site_menu{
+        padding: 0;
+    }
+    .section_title h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .header_v1 .top_header{
+        display: none;
+    }
+    .header_v1 .header_navigation .site_menu .button_box{
+        display: none;
+    }
+    .header_v1 .top_header .top_left{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header_v1 .top_header .top_left span{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .header_v1 .top_header .top_right {
+        float: none;
+        justify-content: center;
+    }
+    .hero_slide_v1 .single_slider .banner_content h1 {
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+    .project_v1 .container-fluid,
+    .feature_v1 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feature_v1 .grid_item {
+        padding: 70px 25px;
+    }
+    .about_v1 .logistics_box_img{
+        margin-bottom: 60px;
+    }
+    .play_box .play_btn {
+        width: 80px;
+        height: 80px;
+        line-height: 75px;
+        border: 5px solid #fff;
+    }
+    .play_box {
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+    .we_do_v1 .logistics_content_box{
+        margin-bottom: 40px;
+    }
+    .logistics_fun_v1 .counter_box {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .logistics_fun_v1 .counter_box .icon::after{
+        left: 50%;
+        margin-left: -30px;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .logistics_content {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .team_v1 .button_box {
+        float: none;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .pricing_v1 .pricing_box,
+    .team_v1 .grid_item,
+    .blog_v1 .grid_item{
+        margin-bottom: 40px;
+    }
+    .blog_v1 .grid_item .grid_inner_item .logistics_content .post_meta span {
+        margin-right: 10px;
+    }
+    .cta_v1 .section_title{
+        text-align: center;
+    }
+    .cta_v1 .button_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer_v1 .contact_widget{
+        margin-left: 0;
+    }
+    .widget_box{
+        margin-bottom: 40px;
+    }
+    .footer_v1 .copyright_text {
+        text-align: center;
+    }
+    .footer_v1 .footer_bottom .social_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .logistics_box_img .logistics_img:nth-child(2){
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+    .logistics_box_img .logistics_img{
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .breadcrumb-area .breadcrumb-txt {
+        padding: 80px 0px 80px 0px;
+    }
+}
+/* Mobile Devices, Tablets */
+@media only screen and (max-width: 399px){
+    .about_v1 .logistics_box_img .logistics_img:after{
+        display: none;
+    }
+}
+/* Mobile Devices, Tablets */
+@media only screen and (min-width: 450px) and (max-width : 767px) {
+    .logistics_box_img .logistics_img {
+        max-width: 340px;
+    }
+    .logistics_box_img .logistics_img:nth-child(2) {
+        margin-left: 28%;
+        margin-top: -39%;
+    }
+}

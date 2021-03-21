@@ -1,0 +1,214 @@
+/* Helper class starts */
+.rtl {
+    direction: rtl !important;
+}
+.ltr {
+    direction: ltr !important;
+}
+/* Helper class ends */
+
+
+
+/* sider navbar css over write start */
+.sidebar.sidebar-style-2[data-background-color=dark2] .nav .nav-item.selected > a, .sidebar.sidebar-style-2[data-background-color=dark] .nav .nav-item.selected > a {
+    color: #fff;
+    font-weight: 700;
+}
+.sidebar.sidebar-style-2 .nav .nav-item .selected > a {
+    background: rgba(199,199,199,.2);
+}
+/* sider navbar css over write end */
+
+
+/* bootstrap modal customize start */
+.modal-content {
+    background: #202940;
+}
+.modal-header {
+    border-bottom: 1px solid rgba(181,181,181,.1)!important;
+}
+.modal-content .close {
+  color: #fff;
+}
+.modal-content .close:not(:disabled):not(.disabled):focus, .modal-content .close:not(:disabled):not(.disabled):hover {
+    color: #fff;
+}
+.modal-footer {
+    border-top: 1px solid rgba(181,181,181,.1)!important;
+}
+/* bootstrap modal customize end */
+
+
+
+/* bootstrap form control customize start */
+.form-control[readonly] {
+    background-color: #1a2035 !important;
+    border-color: #2f374b !important;
+}
+.form-control[disabled] {
+    background-color: #1a2035 !important;
+    border-color: #2f374b !important;
+}
+/* bootstrap form control customize start */
+
+
+/* bootstrap image thumbnail customize start */
+.img-thumbnail {
+    max-width: 400px;
+}
+/* bootstrap image thumbnail customize end */
+
+
+/* image table preview for dropzone edit form start */
+#imgtable .trdb {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+}
+
+#imgtable .trdb button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 5px;
+}
+
+#imgtable .trdb td {
+    padding: 0px !important;
+}
+
+.dropzone:hover {
+    background: transparent !important;
+}
+/* image table preview for dropzone edit form end */
+
+
+
+/* iconpicker input field start */
+.iconpicker-popover.popover .popover-title input[type=search].iconpicker-search {
+    direction: ltr !important;
+}
+/* iconpicker input field end */
+
+
+/* request loader css start */
+.request-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0000007a;
+    z-index: 10000;
+    display: none;
+}
+
+.request-loader img {
+    position: fixed;
+    display: none;
+    width: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.request-loader.show {
+    display: block;
+}
+
+.request-loader.show img {
+    display: block;
+}
+/* request loader css end */
+
+
+
+/* summernote css starts */
+.note-editor.note-frame .note-btn.note-image-btn,
+.note-editor.note-frame .note-btn.note-video-btn,
+.note-editor.note-frame .note-btn.note-link-btn {
+    border: 1px solid #31ce36 !important;
+    background: #31ce36!important;
+}
+label.note-form-label {
+    color: #fff !important;
+}
+
+.note-modal label.form-check-label {
+    color: #fff !important;
+}
+.note-modal h4.modal-title {
+    color: #ffffff9a;
+}
+.sn-checkbox-open-in-new-window.form-check [type=checkbox]:checked, .sn-checkbox-open-in-new-window.form-check [type=checkbox]:not(:checked) {
+    left: 30px;
+}
+.form-check.sn-checkbox-open-in-new-window {
+    padding-left: 30px;
+}
+.sn-checkbox-use-protocol.form-check [type=checkbox]:checked, .sn-checkbox-use-protocol.form-check [type=checkbox]:not(:checked) {
+    left: 30px;
+}
+.form-check.sn-checkbox-use-protocol {
+    padding-left: 30px;
+}
+.form-check.sn-checkbox-use-protocol {
+    display: none;
+}
+.sn-checkbox-open-in-new-window.form-check {
+    display: none;
+}
+/* summernote css ends */
+
+
+/* summernote rtl css starts */
+.note-editor.note-frame .note-editing-area .note-editable.rtl {
+    text-align: right !important;
+}
+/* summernote rtl css ends */
+
+
+.list-group .list-group-item {
+    display: block; 
+}
+#myEditor li.list-group-item {
+    cursor: move;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+
+.custom-file-label::after {
+    color: #fff;
+    background-color: #1a2035;
+    border-left: 1px solid #2f374b;
+}
+label.custom-file-label {
+    background-color: #1a2035;
+    border: 1px solid #2f374b;
+}
+
+.messages-container {
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+
+
+
+.dropdown-menu button.deletebtn {
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    padding: .25rem 1.5rem;
+    color: #212529;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-menu button.deletebtn:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}

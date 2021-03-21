@@ -1,0 +1,353 @@
+
+/*xxLarge Device*/
+@media only screen and (min-width: 1401px) and (max-width: 1796px) {
+    .main-menu ul > li > a{
+        padding: 20px 3px;
+        font-size: 14px;
+    }
+}
+/*Extra Large Device*/
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .main-menu ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }    
+    .finlance_header.header_v1 .container-fluid{
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .header_v1 .header_navigation .site_menu .button_box .finlance_btn{
+        margin-left: 20px;
+    }
+    .feature_v1 .grid_item {
+        padding: 50px 30px;
+    }
+    .project_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-menu ul > li > a{
+        padding: 37px 7px;
+        font-size: 14px;
+    }
+}
+/*Large Device*/
+@media only screen and (min-width: 992px) and (max-width : 1200px) {
+     .finlance_header.header_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header_v1 .header_navigation{
+        padding: 0;
+    }
+    .header_v1 .header_navigation .site_menu .brand img{
+        max-width: 100px
+    }
+    .header_v1 .header_navigation .site_menu .button_box .search_icon{
+        font-size: 12px;
+    }
+    .header_v1 .header_navigation .site_menu .button_box .finlance_btn {
+        min-width: 100px;
+        margin-left: 20px;
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .hero_slide_v1 .single_slider .banner_content h1{
+        font-size: 70px !important;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .finlance_content {
+        padding: 35px 60px 39px;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .finlance_content p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 18px;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .finlance_content h3 {
+        margin-bottom: 0px;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .finlance_content img {
+        margin-bottom: 10px;
+    }
+    .blog_v1 .grid_item .finlance_content .post_meta span {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+    .blog_v1 .grid_item .finlance_content {
+        padding: 30px 20px 20px;
+    }
+    .project_v1 .container-fluid,
+    .feature_v1 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .footer_v1 .contact_widget {
+        margin-left: 0;
+    }
+    .testimonial_v1 .testimonial_slide .slick-arrow:after{
+        display: none;
+    }
+    .feature_v1 .grid_item .finlance_content h4{
+        font-size: 18px;
+    }
+    .feature_v1 .grid_item {
+        padding: 30px 10px;
+    }
+    .about_v1 .section_title {
+        padding-right: 50px;
+    }
+    .footer_v1 .widget_box p {
+        font-size: 13px;
+    }
+	.main-menu ul li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .main-menu ul > li > a{
+        padding: 20px 5px;
+        font-size: 12px;
+    }    
+}
+/*Medium Device*/
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+    .header_v1 .top_header .top_left span {
+        margin-right: 5px;
+    }
+    .feature_v1 .grid_item {
+        padding: 50px 40px;
+    }
+}
+
+
+/*Medium Device*/
+@media only screen and (max-width : 991px){
+    .breadcrumb-area .breadcrumb-txt {
+        padding: 110px 0px 110px 0px;
+    }
+    li.submenus ul {
+        position: static;
+        background: transparent;
+    }
+    .mobile_menu.mean-container li ul {
+        max-height: 300px;
+        overflow-y: scroll;
+    }     
+    li.submenus::after {
+        display: none;
+    } 
+    .finlance_img img{
+        width: 100%;
+    }
+    .section_title h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .mean-container .mean-bar {
+        background: transparent;
+        padding: 0;
+        min-height: 0;
+    }
+    .mean-container .mean-nav{
+        margin-top: 10px;
+    }
+    .mean-container a.meanmenu-reveal{
+        top: -23px;
+        padding: 0;
+    }
+    .mean-container a.meanmenu-reveal{
+        color: #ff3737;
+    }
+    .mean-container a.meanmenu-reveal span{
+        background: #ff3737;
+    }
+    .header_v1 .site_menu {
+        padding: 20px 0 15px;
+    }
+    .finlance_header.header_v1 .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .header_v1 .header_navigation .site_menu .button_box{
+        display: none;
+    }
+    .hero_slide_v1 .single_slider {
+        padding: 150px 0;
+    }
+    .hero_slide_v1 .single_slider .banner_content h1{
+        font-size: 36px !important;
+    }
+    .hero_slide_v1 .single_slider .banner_content h3{
+        font-size: 22px !important;
+        line-height: 30px;
+    }
+    .feature_v1 .single_feature{
+        border: none;
+    }
+    .service_v1 {
+        padding-bottom: 60px;
+    }
+    .service_v1 .grid_item {
+        margin-bottom: 0px;
+    }
+    .about_v1 .play_box {
+        margin-bottom: 60px;
+    }
+    .about_v1 .section_title {
+        text-align: center;
+        padding-right: 0;
+    }
+    .about_v1 .button_box{
+        text-align: center;
+    }
+    .section_title span.line-circle{
+        display: none;
+    }
+    .testimonial_v1 .testimonial_slide .slick-arrow:after{
+        display: none;
+    }
+    .we_do_v1 .finlance_content_box {
+        margin-bottom: 60px;
+    }
+    .finlance_fun_v1 {
+        padding-bottom: 60px;
+    }
+    .team_v1 {
+        padding-bottom: 0;
+    }
+    .counter_box {
+        margin-bottom: 60px;
+    }
+    .cta_v1 .section_title {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .cta_v1 .button_box {
+        float: none;
+        text-align: center;
+    }
+    .footer_v1 .contact_widget{
+        margin-left: 0;
+    }
+    .footer_v1 .widget_box{
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .cases.breadcrumb-area .breadcrumb-txt {
+        padding: 110px 0px 110px 0px;
+    }
+    .header_v1 .top_header .top_left {
+        text-align: center;
+    }
+    .header_v1 .top_header .top_left span {
+        margin-right: 0;
+        display: block;
+    }
+    .header_v1 .top_header .top_right {
+        float: none;
+        margin-top: 15px;
+        justify-content: center;
+    }
+    .header_v1 .top_header .top_right .social li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .feature_v1 .grid_item {
+        padding: 20px 10px;
+        margin-bottom: 20px;
+    }
+    .feature_v1 .grid_item .grid_inner_item {
+        display: block;
+        text-align: center;
+    }
+    .feature_v1 .grid_item .finlance_content {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .feature_v1 .grid_item .finlance_content h4{
+        font-size: 20px;
+    }
+    .counter_box {
+        text-align: center;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .quote{
+        display: none;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box{
+        padding: 30px 20px;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .client_box .info h3{
+        font-size: 20px;
+    }
+    .project_slide .grid_item .finlance_img .project_overlay{
+        max-width: 300px;
+        bottom: 20px;
+    }
+    .we_do_v1 .finlance_content_box {
+        padding-right: 0;
+    }
+    .blog_v1 .grid_item .finlance_content {
+        padding: 40px 30px;
+    }
+    .footer_v1 .footer_bottom .copyright_text {
+        text-align: center;
+    }
+    .footer_v1 .footer_bottom .social_box {
+        margin-top: 15px;
+        float: none;
+        text-align: center;
+    }
+    .footer_v1 .footer_bottom .social_box ul li {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .testimonial_v1 .testimonial_slide .slick-prev {
+        left: 43%;
+    }
+    .testimonial_v1 .testimonial_slide .slick-next {
+        right: 43%;
+    }
+}
+/* Mobile Devices, Tablets */
+@media only screen and (max-width: 359px){
+    .header_v1 .top_header .top_right .social {
+        display: none;
+    }
+    .header_v1 .top_header .top_right {
+        margin-top: 0px;
+    }
+    .header_v1 .top_header .top_left {
+        display: none;
+    }
+    .feature_v1 .grid_item {
+        padding: 20px 5px;
+    }
+    .feature_v1 .grid_item .finlance_content h4{
+        font-size: 18px;
+    }
+    .testimonial_v1 .testimonial_slide .testimonial_box .client_box .info h3{
+        font-size: 18px;
+    }
+    .testimonial_v1 .testimonial_slide .slick-prev {
+        left: 40%;
+    }
+    .testimonial_v1 .testimonial_slide .slick-next {
+        right: 40%;
+    }
+}
+/* Mobile Devices, Tablets */
+@media only screen and (min-width: 450px) and (max-width : 767px) {
+    .header_v1 .top_header .top_left span {
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .project_slide .grid_item .finlance_img .project_overlay{
+        max-width: 300px;
+        bottom: 40px;
+    }
+}

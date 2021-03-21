@@ -1,0 +1,324 @@
+/*xxLarge Device*/
+@media only screen and (min-width: 1401px) and (max-width: 1796px) {
+    .main-menu ul > li > a{
+        padding: 20px 3px;
+        font-size: 14px;
+    }
+}
+/*Extra Large Device*/
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .main-menu ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-menu ul > li > a{
+        padding: 20px 7px;
+        font-size: 14px;
+    }    
+    .finlance_header.header_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header_v1 .header_navigation .site_menu .button_box .finlance_btn{
+        margin-left: 20px;
+    }
+    
+    .feature_v1 .container-fluid{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .feature_v1 .grid_item {
+        padding: 40px 10px;
+    }
+    .feature_v1 .grid_item .finlance_content h4{
+        font-size: 16px;
+    }
+    .project_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/*Large Device*/
+@media only screen and (min-width: 992px) and (max-width : 1200px) {
+     .finlance_header.header_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header_v1 .header_navigation{
+        padding: 0 20px;
+    }
+    .header_v1 .header_navigation .site_menu .brand img{
+        max-width: 100px
+    }
+    
+    .header_v1 .header_navigation .site_menu .button_box .search_icon{
+        font-size: 12px;
+    }
+    .header_v1 .header_navigation .site_menu .button_box .finlance_btn{
+        min-width: 100px;
+        margin-left: 20px;
+    }
+    .project_v1 .container-fluid,
+    .feature_v1 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .main-menu ul li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .main-menu ul > li > a{
+        padding: 20px 5px;
+        font-size: 12px;
+    }    
+}
+
+/*Medium Device*/
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+    .finlance_img img{
+        width: 100%;
+    }
+    .mean-container .mean-bar {
+        background: transparent;
+        padding: 0;
+        min-height: 0;
+    }
+    .mean-container .mean-nav{
+        margin-top: 10px;
+    }
+    .mean-container a.meanmenu-reveal{
+        top: -23px;
+        padding: 0;
+    }
+    .section_title h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .header_v1 .header_navigation .site_menu.primary_menu{
+        display: none;
+    }
+    .header_v1 .header_navigation .site_menu .button_box{
+        display: none;
+    }
+    .header_v1 .header_navigation{
+        padding: 10px 20px 0;
+    }
+    .header_v1 .top_header .top_left{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header_v1 .top_header .top_left span{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .header_v1 .top_header .top_right {
+        float: none;
+        justify-content: center;
+    }
+    .hero_slide_v1 .single_slider .banner_content h1 {
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+    .finlance_header.header_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .project_v1 .container-fluid,
+    .feature_v1 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feature_v1 .grid_item {
+        padding: 70px 25px;
+    }
+    .about_v1 .finlance_box_img{
+        margin-bottom: 60px;
+    }
+    .about_v1 .finlance_content_box .section_title{
+        margin-bottom: 0;
+    }
+    .we_do_v1 .finlance_content_box{
+        margin-bottom: 40px;
+    }
+    .finlance_fun_v1 .counter_box {
+        margin-bottom: 40px;
+    }
+    .team_v1 .button_box {
+        float: none;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .pricing_v1 .pricing_box,
+    .team_v1 .grid_item,
+    .blog_v1 .grid_item{
+        margin-bottom: 40px;
+    }
+    .blog_v1 .grid_item .grid_inner_item .finlance_content .post_meta span {
+        margin-right: 10px;
+    }
+    .cta_v1 .section_title{
+        text-align: center;
+    }
+    .cta_v1 .button_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer_v1 .contact_widget{
+        margin-left: 0;
+    }
+    .widget_box{
+        margin-bottom: 40px;
+    }
+    .footer_v1 .copyright_text {
+        text-align: center;
+    }
+    .footer_v1 .footer_bottom .social_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width : 991px) {
+    .play_box {
+        top: 50%;
+        right: 50%;
+        margin-top: -50px;
+        margin-right: -50px;
+    }
+    li.submenus ul {
+        position: static;
+        background: transparent;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .finlance_img img{
+        width: 100%;
+    }
+    .header_v1 .top_header .top_right .social li {
+        display: inline-block;
+        margin-left: 12px;
+    }
+    .mean-container .mean-bar {
+        background: transparent;
+        padding: 0;
+        min-height: 0;
+    }
+    .mean-container .mean-nav{
+        margin-top: 10px;
+    }
+    .mean-container a.meanmenu-reveal{
+        top: -23px;
+        padding: 0;
+    }
+    .section_title h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .header_v1 .header_navigation .site_menu.primary_menu{
+        display: none;
+    }
+    .header_v1 .header_navigation .site_menu .button_box{
+        display: none;
+    }
+    .header_v1 .header_navigation{
+        padding: 10px 20px 0;
+    }
+    .header_v1 .top_header .top_left{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header_v1 .top_header .top_left span{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .header_v1 .top_header .top_right {
+        float: none;
+        justify-content: center;
+    }
+    .hero_slide_v1 .single_slider .banner_content h1 {
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+    .finlance_header.header_v1 .container-fluid{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .project_v1 .container-fluid,
+    .feature_v1 .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feature_v1 .grid_item {
+        padding: 70px 25px;
+    }
+    .about_v1 .finlance_box_img{
+        margin-bottom: 60px;
+    }
+    .play_box {
+        top: 50%;
+        right: 50%;
+        margin-top: -50px;
+        margin-right: -50px;
+    }
+    .we_do_v1 .finlance_content_box{
+        margin-bottom: 40px;
+    }
+    .finlance_fun_v1 .counter_box {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .finlance_fun_v1 .counter_box .icon::after{
+        left: 50%;
+        margin-left: -30px;
+    }
+    .team_v1 .button_box {
+        float: none;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .pricing_v1 .pricing_box,
+    .team_v1 .grid_item,
+    .blog_v1 .grid_item{
+        margin-bottom: 40px;
+    }
+    .blog_v1 .grid_item .grid_inner_item .finlance_content .post_meta span {
+        margin-right: 10px;
+    }
+    .cta_v1 .section_title{
+        text-align: center;
+    }
+    .cta_v1 .button_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer_v1 .contact_widget{
+        margin-left: 0;
+    }
+    .widget_box{
+        margin-bottom: 40px;
+    }
+    .footer_v1 .copyright_text {
+        text-align: center;
+    }
+    .footer_v1 .footer_bottom .social_box {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+/* Mobile Devices, Tablets */
+@media only screen and (max-width: 399px){
+    .about_v1 .finlance_box_img .finlance_img:after{
+        display: none;
+    }
+}
+/* Mobile Devices, Tablets */
+@media only screen and (min-width: 450px) and (max-width : 767px) {
+    
+}
